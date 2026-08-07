@@ -6,3 +6,12 @@ function myFunction() {
 }
 
 myFunction();
+
+/* 
+
+--Output--
+
+Hello World!!!
+We are learning JavaScript
+
+*/
