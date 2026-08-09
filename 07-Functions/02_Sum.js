@@ -1,10 +1,10 @@
 // write a function to print sum of two numbers
 
-function sum (a, b) {   // parameter
+function sum(a, b) {
+  // parameter
 
-    let sum = a + b;
-    console.log("sum =", sum);
-
+  let sum = a + b;
+  console.log("sum =", sum);
 }
 
 sum(10, 20); // argument
@@ -24,8 +24,8 @@ what is argument?
 // return in function
 
 function substraction(a, b) {
-    let sub = a - b;
-    return sub;
+  let sub = a - b;
+  return sub;
 }
 
 console.log(substraction(50, 5));
