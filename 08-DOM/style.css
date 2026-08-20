@@ -1,0 +1,8 @@
+.div-box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid brown;
+    text-align: center;
+    margin: 10px;
+    align-content: center;
+}
