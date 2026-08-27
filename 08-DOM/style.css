@@ -6,3 +6,11 @@
     margin: 10px;
     align-content: center;
 }
+
+.content {
+    color: red;
+}
+
+.myPara {
+    background-color: yellow;
+}

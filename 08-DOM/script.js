@@ -73,3 +73,29 @@ let newButton4 = document.createElement("button");
 newButton4.innerHTML = "<b><i>before Div</i></b>";
 div4 = document.querySelector("div");
 div4.before(newButton4);
+
+// use of remove method - remove the footer using remove method
+
+/* let footer1 = document.querySelector("p");
+footer1.remove(); */
+
+// problem 1:
+/*  
+    create a new button element. Give it a text "Click me", background color of red and text color of white
+    insert the button as the first element inside the body tag.
+*/
+
+let newButtonPractice = document.createElement("button");
+newButtonPractice.innerHTML = "<b>Click Me!!!</b>";
+newButtonPractice.style.backgroundColor = "red";
+newButtonPractice.style.color = "white";
+document.querySelector("body").prepend(newButtonPractice);
+
+/* 
+    practice question 2
+    create a <p> tag in HTML, give it a class and some styling, now create a new class in CSS and try to append this class to the <p> element
+    did you notice, how you overwrite the class name when you add a new one? solve this problem using classList.
+*/
+
+let para = document.querySelector("p");
+para.classList.add("myPara");
