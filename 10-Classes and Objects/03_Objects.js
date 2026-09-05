@@ -60,3 +60,13 @@ console.log(employee1);
 // remove property
 delete employee1.salary;
 console.log(employee1);
+
+/* 
+    this - in an Object
+*/
+
+employee1.displayName = function () {
+  console.log(this.name);
+};
+
+employee1.displayName();
